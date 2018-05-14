@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\cScan">
+      <UniqueIdentifier>{73a4b96a-81ee-428b-a363-dc368f272a4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\cScan\Digit">
+      <UniqueIdentifier>{c2464dd1-34cb-47a5-a242-fb3d6fb8614f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\cScan\Keys">
+      <UniqueIdentifier>{5b8008d0-24a0-4fea-9f05-bc116f73585e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cScan">
+      <UniqueIdentifier>{65c265f0-c20e-4b88-80be-3950fcad683d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cScan\Digit">
+      <UniqueIdentifier>{1a42bfed-eae4-4165-a34e-e99b77130a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cScan\Scan">
+      <UniqueIdentifier>{755a8f74-9ea8-4422-bac3-fedc2af46f2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\cScan\Scan">
+      <UniqueIdentifier>{47fd4e3c-9f40-4cce-b085-e8cd60dbea9b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cScan_test.c">
+      <Filter>Source Files\cScan</Filter>
+    </ClCompile>
+    <ClCompile Include="digit_put.c">
+      <Filter>Source Files\cScan\Digit</Filter>
+    </ClCompile>
+    <ClCompile Include="digit_switch.c">
+      <Filter>Source Files\cScan\Digit</Filter>
+    </ClCompile>
+    <ClCompile Include="digit_count.c">
+      <Filter>Source Files\cScan\Digit</Filter>
+    </ClCompile>
+    <ClCompile Include="digit_get.c">
+      <Filter>Source Files\cScan\Digit</Filter>
+    </ClCompile>
+    <ClCompile Include="scan_real.c">
+      <Filter>Source Files\cScan\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="scan_str.c">
+      <Filter>Source Files\cScan\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="scan_uint.c">
+      <Filter>Source Files\cScan\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="scan_arrowy.c">
+      <Filter>Source Files\cScan\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="scan_date.c">
+      <Filter>Source Files\cScan\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="scan_functions.c">
+      <Filter>Source Files\cScan\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="scan_int.c">
+      <Filter>Source Files\cScan\Scan</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cScan.h">
+      <Filter>Header Files\cScan</Filter>
+    </ClInclude>
+    <ClInclude Include="digit_get.h">
+      <Filter>Header Files\cScan\Digit</Filter>
+    </ClInclude>
+    <ClInclude Include="digit_put.h">
+      <Filter>Header Files\cScan\Digit</Filter>
+    </ClInclude>
+    <ClInclude Include="digit_switch.h">
+      <Filter>Header Files\cScan\Digit</Filter>
+    </ClInclude>
+    <ClInclude Include="digit.h">
+      <Filter>Header Files\cScan\Digit</Filter>
+    </ClInclude>
+    <ClInclude Include="digit_count.h">
+      <Filter>Header Files\cScan\Digit</Filter>
+    </ClInclude>
+    <ClInclude Include="keys.h">
+      <Filter>Header Files\cScan\Keys</Filter>
+    </ClInclude>
+    <ClInclude Include="scan.h">
+      <Filter>Header Files\cScan\Scan</Filter>
+    </ClInclude>
+    <ClInclude Include="scan_int.h">
+      <Filter>Header Files\cScan\Scan</Filter>
+    </ClInclude>
+    <ClInclude Include="scan_real.h">
+      <Filter>Header Files\cScan\Scan</Filter>
+    </ClInclude>
+    <ClInclude Include="scan_str.h">
+      <Filter>Header Files\cScan\Scan</Filter>
+    </ClInclude>
+    <ClInclude Include="scan_uint.h">
+      <Filter>Header Files\cScan\Scan</Filter>
+    </ClInclude>
+    <ClInclude Include="scan_arrowy.h">
+      <Filter>Header Files\cScan\Scan</Filter>
+    </ClInclude>
+    <ClInclude Include="scan_date.h">
+      <Filter>Header Files\cScan\Scan</Filter>
+    </ClInclude>
+    <ClInclude Include="scan_functions.h">
+      <Filter>Header Files\cScan\Scan</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
